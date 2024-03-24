@@ -98,7 +98,7 @@ const PredictiveAutocomplete: React.FC<PredictiveAutocompleteProps> = ({
   };
 
   return (
-    <div style={{ width: "20rem"}}>
+    <div className="autocomplete" style={{ width: "20rem"}}>
       <input
         key={'search-bar'}
         type="text"
