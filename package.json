@@ -1,0 +1,49 @@
+{
+  "name": "react-smart-autocomplete",
+  "version": "1.0.1",
+  "type": "module",
+  "repository": "https://github.com/theRizwan/react-smart-autocomplete.git",
+  "homepage": "https://github.com/theRizwan/react-smart-autocomplete#readme",
+  "author": "Muhammad Rizwan Saleem",
+  "keywords": ["autocomplete", "react-autocomplete", "react-smart-autocomplete", "react-search-autocomplete", "react-predictive-autocomplete", "words-predict", "predict-without-provding-word-list",
+  "search", "searchbox", "autocomplete", "suggestion", "suggestions", "google", "autosuggest","autocomplete", "auto suggest", "auto complete", "react autosuggest", "react autocomplete", "react auto suggest", "react auto complete"],
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "predictionary": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.7.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/my-lib.umd.js",
+  "module": "./dist/my-lib.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.es.js",
+      "require": "./dist/my-lib.umd.js"
+    }
+  }
+}
