@@ -9,7 +9,7 @@
   color: #888;
 }
 
-input {
+.autocomplete input {
   font-size: inherit;
   padding-left: 0.5rem;
   padding-right: 1rem;
@@ -33,7 +33,7 @@ input {
  cursor: none;
 }
 
-ul {
+.autocomplete ul {
   /* border-top: 1px solid #999; */
   position: absolute;
   display: inline-block;
@@ -47,13 +47,13 @@ ul {
   width: 20rem;
 }
 
-ul li {
+.autocomplete ul li {
   list-style: none;
   padding: 15px 10px;
   cursor: pointer;
 }
 
-ul li:hover {
+.autocomplete ul li:hover {
   background-color: #e9f3ff;
 }
 
